@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Occupational Personality Questionnaire OPQ32r",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/occupational-personality-questionnaire-opq32r/",
+    "test_type": ["P"],
+    "description": "Measures 32 workplace behaviour dimensions including strategic thinking, influencing style, leadership, and interpersonal style. Gold-standard personality instrument used across all levels from graduate to CXO. Used for selection, development, and leadership benchmarking.",
+    "duration": "25 minutes",
+    "languages": ["English International", "French (Canada)", "Portuguese", "Chinese Simplified", "Dutch", "German", "Spanish", "French", "Italian", "Japanese", "Korean", "Russian", "Arabic", "Latin American Spanish"],
+    "job_levels": ["Entry Level", "Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director", "Executive"],
+    "keywords": ["personality", "behaviour", "leadership", "OPQ", "OPQ32r", "opq", "workplace", "competency", "development", "selection"]
+  },
+  {
+    "name": "OPQ Universal Competency Report 2.0",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq-universal-competency-report-2-0/",
+    "test_type": ["P"],
+    "description": "Report format for OPQ32r providing a comprehensive competency-based view of personality results mapped to the Universal Competency Framework. Suitable for all roles and levels.",
+    "duration": null,
+    "languages": [],
+    "job_levels": ["Entry Level", "Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director", "Executive"],
+    "keywords": ["OPQ", "UCF", "competency report", "personality report", "leadership", "ucf"]
+  },
+  {
+    "name": "OPQ Leadership Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq-leadership-report/",
+    "test_type": ["P"],
+    "description": "OPQ32r report format focused on leadership behaviours. Ideal for senior selection and leadership benchmarking at director and C-suite level.",
+    "duration": null,
+    "languages": ["Dutch", "English International", "English (USA)", "Romanian"],
+    "job_levels": ["Manager", "Director", "Executive"],
+    "keywords": ["leadership", "OPQ", "senior", "CXO", "director", "executive", "leadership report"]
+  },
+  {
+    "name": "OPQ MQ Sales Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq-mq-sales-report/",
+    "test_type": ["P"],
+    "description": "OPQ32r report format framed for sales roles. Optionally combines OPQ with Motivation Questionnaire (MQ) to add motivators and drives to the sales personality profile. Used for sales selection and development.",
+    "duration": null,
+    "languages": ["Portuguese (Brazil)", "Spanish", "Danish", "Dutch", "Finnish", "English International", "English (USA)", "French", "German", "Italian", "Norwegian"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor", "Manager"],
+    "keywords": ["sales", "OPQ", "motivation", "MQ", "sales report", "seller", "account manager"]
+  },
+  {
+    "name": "SHL Verify Interactive G+",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-g/",
+    "test_type": ["A"],
+    "description": "Adaptive general cognitive ability test covering inductive, numerical, and deductive reasoning in a single 36-minute test. Used for graduate, professional, and senior individual contributor selection. Strongest predictor of job performance across roles.",
+    "duration": "36 minutes",
+    "languages": ["English (USA)", "Chinese Traditional", "Korean", "Serbian", "German", "French", "Spanish", "Dutch", "Italian", "Portuguese", "Russian", "Japanese"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director"],
+    "keywords": ["cognitive", "ability", "reasoning", "numerical", "inductive", "deductive", "Verify G+", "general ability", "aptitude", "g+"]
+  },
+  {
+    "name": "SHL Verify Interactive – Numerical Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-numerical-reasoning/",
+    "test_type": ["A", "S"],
+    "description": "Numerical reasoning assessment measuring ability to interpret and draw conclusions from numerical data, charts, and tables. Used for financial, analytical, and data-heavy roles.",
+    "duration": "20 minutes",
+    "languages": ["French", "German", "Italian", "Dutch", "English International", "English (USA)", "Spanish", "Portuguese", "Chinese Simplified"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager"],
+    "keywords": ["numerical", "reasoning", "maths", "math", "finance", "analyst", "data", "quantitative", "verify numerical"]
+  },
+  {
+    "name": "SHL Verify Interactive – Inductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-inductive-reasoning/",
+    "test_type": ["A"],
+    "description": "Inductive reasoning test measuring ability to identify patterns and relationships. Predicts problem-solving capability and general intelligence.",
+    "duration": "18 minutes",
+    "languages": ["English International", "English (USA)", "German", "French", "Spanish"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["inductive", "reasoning", "patterns", "logic", "problem solving", "abstract"]
+  },
+  {
+    "name": "SHL Verify Interactive – Deductive Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-deductive-reasoning/",
+    "test_type": ["A"],
+    "description": "Deductive reasoning test measuring ability to follow logical arguments and draw conclusions. Used alongside inductive and numerical for comprehensive cognitive battery.",
+    "duration": "19 minutes",
+    "languages": ["English International", "English (USA)", "German", "French", "Spanish"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["deductive", "reasoning", "logic", "verbal", "conclusions"]
+  },
+  {
+    "name": "SHL Verify Interactive – Verbal Reasoning",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-interactive-verbal-reasoning/",
+    "test_type": ["A"],
+    "description": "Verbal reasoning test measuring ability to read and interpret written information, draw logical conclusions from written passages.",
+    "duration": "19 minutes",
+    "languages": ["English International", "English (USA)", "German", "French", "Spanish", "Dutch"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["verbal", "reasoning", "reading", "comprehension", "communication", "language"]
+  },
+  {
+    "name": "Graduate Scenarios",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/graduate-scenarios/",
+    "test_type": ["B"],
+    "description": "Situational judgement test (SJT) designed specifically for graduate-level candidates. Presents realistic workplace scenarios and assesses judgment and decision-making appropriate for early-career professionals. Untimed.",
+    "duration": "Untimed",
+    "languages": ["English International"],
+    "job_levels": ["Graduate", "Entry Level"],
+    "keywords": ["SJT", "situational judgement", "graduate", "scenarios", "judgment", "decision making", "early career", "fresh graduate"]
+  },
+  {
+    "name": "Dependability and Safety Instrument (DSI)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/dependability-and-safety-instrument-dsi/",
+    "test_type": ["P"],
+    "description": "Personality instrument measuring integrity, reliability, safety attitudes, and dependability. Used for safety-critical roles, healthcare, finance, and any position requiring trust and rule compliance. Predicts whether candidates will follow procedures.",
+    "duration": "10 minutes",
+    "languages": ["Portuguese (Brazil)", "Chinese Traditional", "Danish", "Dutch", "English (USA)", "English International", "German", "French", "Italian", "Latin American Spanish", "Spanish"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["safety", "dependability", "integrity", "reliability", "DSI", "trust", "compliance", "healthcare", "security", "frontline"]
+  },
+  {
+    "name": "Manufac. & Indust. - Safety & Dependability 8.0",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/safety-and-dependability-focus-8-0/",
+    "test_type": ["P"],
+    "description": "Manufacturing and industrial sector-specific bundled personality solution measuring safety behaviour and dependability. Calibrated with industrial and manufacturing workforce norms. Recommended for plant operators, warehouse, factory, and industrial roles.",
+    "duration": "16 minutes",
+    "languages": ["English (USA)", "German", "Latin American Spanish", "French", "Portuguese (Brazil)", "Dutch"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["safety", "manufacturing", "industrial", "dependability", "plant", "operator", "factory", "warehouse", "chemical", "frontline"]
+  },
+  {
+    "name": "Workplace Health and Safety (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/workplace-health-and-safety-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test measuring understanding of workplace health and safety principles, regulations, and procedures. Suitable for roles where safety compliance knowledge is required.",
+    "duration": "9 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["safety", "health and safety", "WHS", "HSE", "OSHA", "compliance", "procedures", "workplace safety"]
+  },
+  {
+    "name": "SVAR Spoken English (US) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/svar-spoken-english-us-new/",
+    "test_type": ["K"],
+    "description": "Spoken English proficiency assessment calibrated for US English accent. Used for contact centre and customer-facing roles where spoken English communication quality is critical.",
+    "duration": null,
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["spoken english", "SVAR", "contact centre", "call centre", "language", "communication", "english proficiency", "US accent", "voice", "BPO"]
+  },
+  {
+    "name": "SVAR Spoken English (UK) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/svar-spoken-english-uk-new/",
+    "test_type": ["K"],
+    "description": "Spoken English proficiency assessment calibrated for UK English accent. Used for UK-based contact centre and customer-facing roles.",
+    "duration": null,
+    "languages": ["English International"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["spoken english", "SVAR", "UK", "contact centre", "call centre", "language", "english proficiency", "UK accent", "voice", "BPO"]
+  },
+  {
+    "name": "SVAR Spoken English (Australia) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/svar-spoken-english-australia-new/",
+    "test_type": ["K"],
+    "description": "Spoken English proficiency assessment calibrated for Australian English accent.",
+    "duration": null,
+    "languages": ["English International"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["spoken english", "SVAR", "Australia", "contact centre", "english proficiency", "Australian accent", "voice"]
+  },
+  {
+    "name": "SVAR Spoken English (India) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/svar-spoken-english-india-new/",
+    "test_type": ["K"],
+    "description": "Spoken English proficiency assessment calibrated for Indian English accent.",
+    "duration": null,
+    "languages": ["English (India)"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["spoken english", "SVAR", "India", "contact centre", "english proficiency", "Indian accent", "voice", "BPO"]
+  },
+  {
+    "name": "Contact Center Call Simulation (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/contact-center-call-simulation-new/",
+    "test_type": ["S"],
+    "description": "Standalone simulation of inbound call centre interactions. Candidates handle simulated customer calls and are evaluated on communication, problem-solving, and call handling. Used for volume screening of contact centre agents.",
+    "duration": "15 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["contact centre", "call centre", "simulation", "customer service", "inbound", "BPO", "agent", "call simulation"]
+  },
+  {
+    "name": "Customer Service Phone Simulation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/customer-service-phone-simulation/",
+    "test_type": ["B", "S"],
+    "description": "Bundled older solution combining biodata, personality, and simulation for phone-based customer service roles. Used for finalist-stage depth assessment or as a comprehensive single tool.",
+    "duration": "20 minutes",
+    "languages": ["French (Canada)", "Portuguese (Brazil)", "Dutch", "Italian", "English (USA)", "German", "Spanish"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["customer service", "phone", "simulation", "contact centre", "call centre", "inbound", "finalist"]
+  },
+  {
+    "name": "Entry Level Customer Serv - Retail & Contact Center",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/entry-level-customer-serv-retail-and-contact-center/",
+    "test_type": ["P", "C"],
+    "description": "Personality and competency assessment for entry-level customer service roles across retail and contact centre environments. Measures service orientation, reliability, and interpersonal traits.",
+    "duration": "19 minutes",
+    "languages": ["Latin American Spanish", "German", "French", "Chinese Simplified", "English (USA)", "Portuguese (Brazil)", "Dutch", "Italian", "Spanish"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["customer service", "retail", "contact centre", "entry level", "service orientation", "personality", "competency"]
+  },
+  {
+    "name": "Global Skills Assessment",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/global-skills-assessment/",
+    "test_type": ["C", "K"],
+    "description": "Self-reported skills and competency assessment covering 16 universal skills. Used for talent audits, skills gap analysis, re-skilling initiatives, and development planning. Suitable for all roles and levels.",
+    "duration": "16 minutes",
+    "languages": ["Indonesian", "Italian", "Swedish", "Thai", "Portuguese (Brazil)", "English International", "German", "French", "Spanish", "Dutch", "Japanese", "Korean", "Arabic"],
+    "job_levels": ["Entry Level", "Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director", "Executive"],
+    "keywords": ["GSA", "skills", "competency", "talent audit", "reskilling", "development", "skills gap", "workforce", "self-reported", "global skills"]
+  },
+  {
+    "name": "Global Skills Development Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/global-skills-development-report/",
+    "test_type": ["D"],
+    "description": "Development report companion to the Global Skills Assessment. Provides actionable development plans and recommendations based on GSA results. Used for reskilling and upskilling programs.",
+    "duration": null,
+    "languages": [],
+    "job_levels": ["Entry Level", "Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director"],
+    "keywords": ["GSA", "development", "reskilling", "upskilling", "skills report", "development plan", "global skills development"]
+  },
+  {
+    "name": "Sales Transformation 2.0 - Individual Contributor",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/salestransformationreport2-0-individualcontributor/",
+    "test_type": ["P"],
+    "description": "OPQ-based report measuring how individual sales contributors show up in digital-first selling environments. Covers modern sales behaviours for individual rep evaluation and development.",
+    "duration": null,
+    "languages": ["English International"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["sales", "sales transformation", "digital selling", "individual contributor", "sales rep", "sales development"]
+  },
+  {
+    "name": "Core Java (Advanced Level) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-advanced-level-new/",
+    "test_type": ["K"],
+    "description": "Advanced-level Java knowledge test covering concurrency, JVM internals, performance tuning, design patterns, and production-grade Java. For senior and experienced Java engineers.",
+    "duration": "13 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["java", "Core Java", "advanced java", "JVM", "concurrency", "senior java", "backend", "software engineer"]
+  },
+  {
+    "name": "Core Java (Entry Level) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/core-java-entry-level-new/",
+    "test_type": ["K"],
+    "description": "Entry-level Java knowledge test covering fundamental Java concepts, OOP principles, basic data structures. For junior or graduate Java developers.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Graduate"],
+    "keywords": ["java", "entry level java", "junior java", "OOP", "basic java", "graduate developer"]
+  },
+  {
+    "name": "Spring (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/spring-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for the Spring Framework covering Spring Boot, Spring MVC, dependency injection, and REST API development with Spring.",
+    "duration": "9 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["spring", "spring boot", "spring framework", "java", "REST", "microservices", "backend"]
+  },
+  {
+    "name": "RESTful Web Services (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/restful-web-services-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test covering REST API design principles, HTTP methods, status codes, authentication patterns, and web service implementation.",
+    "duration": "12 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["REST", "RESTful", "API", "web services", "HTTP", "microservices", "backend"]
+  },
+  {
+    "name": "SQL (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sql-new/",
+    "test_type": ["K"],
+    "description": "SQL knowledge test covering SELECT statements, joins, subqueries, aggregations, database design concepts, and SQL best practices.",
+    "duration": "9 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["SQL", "database", "relational database", "queries", "joins", "MySQL", "PostgreSQL", "data"]
+  },
+  {
+    "name": "Amazon Web Services (AWS) Development (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/amazon-web-services-aws-development-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for AWS cloud development covering core services (EC2, S3, Lambda, RDS), cloud architecture principles, and deployment.",
+    "duration": "6 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["AWS", "Amazon Web Services", "cloud", "cloud computing", "EC2", "S3", "Lambda", "deployment", "DevOps"]
+  },
+  {
+    "name": "Docker (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/docker-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test covering Docker containerisation concepts, Dockerfile, Docker Compose, container orchestration basics, and DevOps practices.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["Docker", "containers", "containerisation", "DevOps", "CI/CD", "Kubernetes", "microservices", "deployment"]
+  },
+  {
+    "name": "Angular (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/angular-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Angular framework covering components, services, routing, forms, and Angular best practices.",
+    "duration": "8 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["angular", "frontend", "TypeScript", "web development", "SPA", "full stack"]
+  },
+  {
+    "name": "Python (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/python-new/",
+    "test_type": ["K"],
+    "description": "Python programming knowledge test covering Python syntax, data structures, functions, OOP, and common Python patterns.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["python", "programming", "scripting", "data science", "machine learning", "backend", "automation"]
+  },
+  {
+    "name": "JavaScript (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/javascript-new/",
+    "test_type": ["K"],
+    "description": "JavaScript knowledge test covering core JS concepts, ES6+, async patterns, DOM manipulation, and modern JavaScript development.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["javascript", "JS", "frontend", "web development", "NodeJS", "React", "full stack"]
+  },
+  {
+    "name": "React (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/react-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for React covering components, hooks, state management, props, and React best practices.",
+    "duration": "8 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["react", "ReactJS", "frontend", "JavaScript", "hooks", "SPA", "web development"]
+  },
+  {
+    "name": "Linux Programming (General)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/linux-programming-general/",
+    "test_type": ["K"],
+    "description": "Linux knowledge test covering shell scripting, file systems, process management, system administration, and command-line tools. Used for systems engineers and DevOps roles.",
+    "duration": "25 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["linux", "unix", "shell", "bash", "scripting", "systems", "DevOps", "infrastructure", "SRE", "networking"]
+  },
+  {
+    "name": "Networking and Implementation (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/networking-and-implementation-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test covering networking concepts including TCP/IP, protocols, network architecture, and implementation practices.",
+    "duration": "7 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["networking", "TCP/IP", "network", "protocols", "infrastructure", "DevOps", "cloud", "implementation"]
+  },
+  {
+    "name": "Smart Interview Live Coding",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/smart-interview-live-coding/",
+    "test_type": ["K"],
+    "description": "Adaptive live-coding interview platform where interviewers can set coding challenges in any programming language. Supports pair programming and real-time coding evaluation. Used for senior technical candidates where no language-specific test exists.",
+    "duration": "Variable",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor", "Manager"],
+    "keywords": ["live coding", "coding interview", "programming", "technical interview", "software engineer", "developer", "any language", "Rust", "Go", "Scala"]
+  },
+  {
+    "name": "Financial Accounting (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/financial-accounting-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test covering financial accounting principles, journal entries, balance sheets, income statements, and financial reporting.",
+    "duration": "9 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Graduate", "Entry Level", "Mid-Professional"],
+    "keywords": ["accounting", "finance", "financial accounting", "GAAP", "bookkeeping", "analyst", "CPA"]
+  },
+  {
+    "name": "Basic Statistics (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/basic-statistics-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test covering statistical concepts including mean, median, standard deviation, probability, and basic statistical analysis.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Graduate", "Entry Level", "Mid-Professional"],
+    "keywords": ["statistics", "data", "analysis", "quantitative", "analyst", "research", "finance", "data science"]
+  },
+  {
+    "name": "HIPAA (Security)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/hipaa-security/",
+    "test_type": ["K"],
+    "description": "Knowledge test measuring understanding of HIPAA security provisions, patient data privacy requirements, and healthcare data handling compliance.",
+    "duration": "15 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["HIPAA", "healthcare", "compliance", "data privacy", "patient records", "healthcare admin", "medical", "security"]
+  },
+  {
+    "name": "Medical Terminology (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/medical-terminology-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test measuring understanding of medical terminology, abbreviations, and clinical vocabulary used in healthcare administration roles.",
+    "duration": "3 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["medical", "healthcare", "terminology", "clinical", "healthcare admin", "medical records"]
+  },
+  {
+    "name": "Microsoft Word 365 - Essentials (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-word-365-essentials-new/",
+    "test_type": ["K", "S"],
+    "description": "Simulation-based assessment of essential Microsoft Word skills including formatting, tables, styles, and document management. For roles requiring basic to intermediate Word proficiency.",
+    "duration": "25 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["Microsoft Word", "Word", "Office 365", "document", "admin", "clerical", "typing", "word processing"]
+  },
+  {
+    "name": "MS Excel (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/ms-excel-new/",
+    "test_type": ["K"],
+    "description": "Short knowledge test for Microsoft Excel covering formulas, functions, data manipulation, and spreadsheet basics. Fast and suitable for initial screening.",
+    "duration": "6 minutes",
+    "languages": ["English (USA)", "Spanish", "French", "Portuguese (Brazil)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["Excel", "Microsoft Excel", "spreadsheet", "Office", "admin", "clerical", "formulas", "data"]
+  },
+  {
+    "name": "MS Word (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/ms-word-new/",
+    "test_type": ["K"],
+    "description": "Short knowledge test for Microsoft Word covering formatting, editing, and document management basics. Fast initial screening tool.",
+    "duration": "4 minutes",
+    "languages": ["Spanish", "French", "Portuguese (Brazil)", "English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["Word", "Microsoft Word", "document", "Office", "admin", "clerical", "word processing"]
+  },
+  {
+    "name": "Microsoft Excel 365 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-excel-365-new/",
+    "test_type": ["K", "S"],
+    "description": "Comprehensive Excel simulation testing real-world spreadsheet tasks in Excel 365. Covers formulas, pivot tables, data analysis, and Excel best practices.",
+    "duration": "35 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["Excel", "Microsoft Excel", "Excel 365", "spreadsheet", "simulation", "Office", "data analysis", "pivot tables"]
+  },
+  {
+    "name": "Microsoft Word 365 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-word-365-new/",
+    "test_type": ["K", "S"],
+    "description": "Comprehensive Word simulation testing document creation, formatting, styles, and advanced Word 365 features through hands-on tasks.",
+    "duration": "35 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["Word", "Microsoft Word", "Word 365", "document", "simulation", "Office", "word processing"]
+  },
+  {
+    "name": "Motivation Questionnaire (MQ)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/motivation-questionnaire-mq/",
+    "test_type": ["P"],
+    "description": "Measures 18 factors of workplace motivation including rewards, recognition, influence, and autonomy. Used to understand what drives candidates and employees for better retention and engagement decisions.",
+    "duration": "25 minutes",
+    "languages": ["English International", "English (USA)", "German", "French", "Spanish", "Dutch"],
+    "job_levels": ["Graduate", "Mid-Professional", "Professional Individual Contributor", "Manager", "Director"],
+    "keywords": ["motivation", "MQ", "drives", "engagement", "retention", "rewards", "motivators", "values"]
+  },
+  {
+    "name": "Agile Software Development (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/agile-software-development/",
+    "test_type": ["K"],
+    "description": "Knowledge test measuring understanding of Agile methodology, Scrum, Kanban, sprint planning, and agile software development practices.",
+    "duration": "15 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["agile", "scrum", "kanban", "sprint", "software development", "project management", "DevOps"]
+  },
+  {
+    "name": "Manual Testing (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/manual-testing-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for manual software testing covering test life cycle, test case design, testing tools, and bug reporting.",
+    "duration": "15 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["QA", "testing", "manual testing", "test cases", "quality assurance", "software testing", "bug"]
+  },
+  {
+    "name": "Selenium (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/selenium-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Selenium test automation covering WebDriver, test scripts, automation frameworks, and Selenium best practices.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["selenium", "automation testing", "QA", "test automation", "WebDriver", "quality assurance"]
+  },
+  {
+    "name": "Kubernetes (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/kubernetes-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Kubernetes container orchestration covering pods, deployments, services, scaling, and cluster management.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["kubernetes", "k8s", "containers", "orchestration", "DevOps", "cloud-native", "microservices", "deployment"]
+  },
+  {
+    "name": "Microsoft Azure (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-azure-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Microsoft Azure cloud platform covering core services, deployment, storage, and Azure architecture.",
+    "duration": "8 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["Azure", "Microsoft Azure", "cloud", "cloud computing", "DevOps", "deployment"]
+  },
+  {
+    "name": "Google Cloud Platform (GCP) (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/google-cloud-platform-gcp-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Google Cloud Platform covering GCP services, architecture, and cloud deployment.",
+    "duration": "8 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["GCP", "Google Cloud", "cloud", "cloud computing", "DevOps", "deployment"]
+  },
+  {
+    "name": "SHL Verify – Calculation",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/shl-verify-calculation/",
+    "test_type": ["A"],
+    "description": "Numerical calculation test assessing speed and accuracy in mental arithmetic without a calculator. Used for roles requiring fast mental math such as cashiers, retail, and data entry.",
+    "duration": "10 minutes",
+    "languages": ["English International", "English (USA)"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["calculation", "arithmetic", "mental math", "numerical", "cashier", "retail", "data entry"]
+  },
+  {
+    "name": "Microsoft PowerPoint 365 (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/microsoft-powerpoint-365-new/",
+    "test_type": ["K", "S"],
+    "description": "Simulation test for PowerPoint 365 covering slide creation, formatting, animations, and presentation skills.",
+    "duration": "20 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["PowerPoint", "presentation", "Office 365", "slides", "admin", "clerical"]
+  },
+  {
+    "name": "Typing Proficiency - English (US)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/typing-proficiency-english-us/",
+    "test_type": ["S"],
+    "description": "Typing speed and accuracy test in English (US). Used for roles requiring efficient data entry, transcription, or document production.",
+    "duration": "5 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["typing", "data entry", "transcription", "clerical", "admin", "WPM", "speed"]
+  },
+  {
+    "name": "Data Entry 7.0",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/data-entry-7-0/",
+    "test_type": ["S"],
+    "description": "Data entry speed and accuracy assessment measuring ability to enter data quickly and correctly. Used for administrative and clerical roles.",
+    "duration": "12 minutes",
+    "languages": ["English (USA)", "French", "Spanish", "German"],
+    "job_levels": ["Entry Level"],
+    "keywords": ["data entry", "clerical", "admin", "typing", "speed", "accuracy", "administrative"]
+  },
+  {
+    "name": "OPQ Manager Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/opq-manager-report/",
+    "test_type": ["P"],
+    "description": "OPQ32r report format specifically designed for manager-level roles. Provides insights into management style, team leadership, and people management behaviours.",
+    "duration": null,
+    "languages": ["English International", "English (USA)", "German", "French", "Dutch"],
+    "job_levels": ["Manager"],
+    "keywords": ["manager", "management", "OPQ", "leadership", "team leader", "people manager", "manager report"]
+  },
+  {
+    "name": "Sales Manager Sales Transformation Report",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/sales-manager-sales-transformation-report/",
+    "test_type": ["P"],
+    "description": "OPQ-based report for sales managers measuring how they lead teams in a digital-first selling environment. Companion to Sales Transformation 2.0 for individual contributors.",
+    "duration": null,
+    "languages": ["English International"],
+    "job_levels": ["Manager"],
+    "keywords": ["sales manager", "sales", "sales transformation", "manager", "digital selling", "first-line manager"]
+  },
+  {
+    "name": "C# (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/c-sharp-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for C# programming covering .NET, object-oriented programming, LINQ, async patterns, and C# best practices.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["C#", "csharp", ".NET", "dotnet", "backend", "Microsoft", "software engineer"]
+  },
+  {
+    "name": "C++ (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/c-plus-plus-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for C++ programming covering memory management, templates, STL, OOP, and systems programming concepts.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["C++", "cpp", "systems programming", "low-level", "embedded", "performance", "backend"]
+  },
+  {
+    "name": "TypeScript (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/typescript-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for TypeScript covering typing system, interfaces, generics, and TypeScript best practices.",
+    "duration": "8 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["typescript", "TS", "frontend", "JavaScript", "Angular", "React", "web development"]
+  },
+  {
+    "name": "Node.js (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/node-js-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Node.js covering event loop, async programming, npm ecosystem, Express, and server-side JavaScript.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["nodejs", "node", "JavaScript", "backend", "server-side", "Express", "full stack"]
+  },
+  {
+    "name": "MongoDB (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/mongodb-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for MongoDB covering document model, queries, aggregation, indexing, and NoSQL concepts.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["mongodb", "NoSQL", "database", "document database", "backend"]
+  },
+  {
+    "name": "Git (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/git-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Git version control covering branching, merging, rebasing, and collaborative workflows.",
+    "duration": "7 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional", "Professional Individual Contributor"],
+    "keywords": ["git", "version control", "github", "branching", "DevOps", "software engineer"]
+  },
+  {
+    "name": "Salesforce (New)",
+    "url": "https://www.shl.com/solutions/products/product-catalog/view/salesforce-new/",
+    "test_type": ["K"],
+    "description": "Knowledge test for Salesforce CRM covering Salesforce objects, workflows, reports, and administration.",
+    "duration": "10 minutes",
+    "languages": ["English (USA)"],
+    "job_levels": ["Entry Level", "Mid-Professional"],
+    "keywords": ["salesforce", "CRM", "sales", "admin", "cloud", "enterprise software"]
+  }
+]
