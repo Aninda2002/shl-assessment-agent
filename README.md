@@ -1,35 +1,62 @@
 # SHL Assessment Recommendation Agent
 
-A conversational FastAPI service that helps hiring managers and recruiters select SHL assessments through natural dialogue.
+A conversational FastAPI service that helps hiring managers and recruiters select the most appropriate SHL assessments through natural language conversations using the OpenAI GPT API.
 
-## Architecture
+---
 
-- **`main.py`** — FastAPI app with `/health` and `/chat` endpoints
-- **`catalog.json`** — 66-item SHL Individual Test Solutions catalog (scraped from `shl.com/solutions/products/product-catalog/`)
-- **`Dockerfile`** — Container build
-- **`requirements.txt`** — Python dependencies
+# Architecture
 
-## API
+- **main.py** — FastAPI application exposing `/health` and `/chat`
+- **catalog.json** — SHL Individual Test Solutions catalog used for grounded recommendations
+- **requirements.txt** — Python dependencies
+- **Dockerfile** — Docker container configuration (optional)
 
-### `GET /health`
-Returns `{"status": "ok"}` with HTTP 200.
+---
 
-### `POST /chat`
-**Request:**
+# API
+
+## GET /health
+
+Returns:
+
+```json
+{
+  "status": "ok"
+}
+```
+
+Status Code: **200**
+
+---
+
+## POST /chat
+
+### Request
+
 ```json
 {
   "messages": [
-    {"role": "user", "content": "I'm hiring a Java developer"},
-    {"role": "assistant", "content": "What seniority level?"},
-    {"role": "user", "content": "Mid-level, 4 years"}
+    {
+      "role": "user",
+      "content": "I'm hiring a Java developer"
+    },
+    {
+      "role": "assistant",
+      "content": "What seniority level?"
+    },
+    {
+      "role": "user",
+      "content": "Mid-level with 4 years of experience"
+    }
   ]
 }
 ```
 
-**Response:**
+### Response
+
 ```json
 {
-  "reply": "Here are 5 assessments for a mid-level Java developer...",
+  "reply": "Based on your requirements, I recommend the following SHL assessments...",
   "recommendations": [
     {
       "name": "Core Java (Advanced Level) (New)",
@@ -41,54 +68,147 @@ Returns `{"status": "ok"}` with HTTP 200.
 }
 ```
 
-**Rules:**
-- `recommendations` is `[]` while still clarifying or refusing out-of-scope questions
-- `recommendations` has 1–10 items when a shortlist is committed
-- `end_of_conversation` is `true` only when the user confirms they are done
+---
 
-## Deployment
+## Response Rules
 
-### Environment Variables
+- `recommendations` is an empty array while clarification is required.
+- Returns between **1 and 10** recommendations once sufficient hiring information is available.
+- `end_of_conversation` becomes **true** only when the user explicitly confirms the conversation is complete.
+
+---
+
+# Environment Variables
+
 | Variable | Description |
-|---|---|
-| `ANTHROPIC_API_KEY` | Your Anthropic API key |
+|----------|-------------|
+| OPENAI_API_KEY | Your OpenAI API Key |
 
-### Docker
+---
+
+# Running Locally
+
+Install dependencies
+
 ```bash
-docker build -t shl-agent .
-docker run -p 8000:8000 -e ANTHROPIC_API_KEY=sk-... shl-agent
+pip install -r requirements.txt
 ```
 
-### Render / Railway / Fly.io
-Set `ANTHROPIC_API_KEY` in environment variables, point to the repository, and deploy.
+Set the API key
 
-The `/health` endpoint returns immediately (no model call), so cold start readiness checks work fine within the 2-minute window.
+### Windows (PowerShell)
 
-## Agent Behaviors
+```powershell
+$env:OPENAI_API_KEY="your_openai_api_key"
+```
 
-| Behavior | Trigger | Response |
-|---|---|---|
-| **Clarify** | Vague query ("I need an assessment") | Asks ONE focused question |
-| **Recommend** | Sufficient context or job description provided | 1–10 assessments with URLs |
-| **Refine** | User adds/removes constraints mid-conversation | Updates shortlist |
-| **Compare** | "What's the difference between X and Y?" | Grounded catalog comparison |
-| **Refuse** | Legal questions, off-topic, prompt injection | Polite in-scope redirect |
+### Linux/macOS
 
-## Catalog Coverage
+```bash
+export OPENAI_API_KEY="your_openai_api_key"
+```
 
-The catalog includes all SHL Individual Test Solutions:
-- **Personality & Behaviour**: OPQ32r, MQ, DSI, report formats (Leadership, UCF, Sales, Manager)
-- **Ability & Aptitude**: Verify G+, Verify Numerical/Verbal/Inductive/Deductive
-- **Knowledge & Skills**: 30+ technology tests (Java, Python, SQL, AWS, Docker, etc.)
-- **Simulations**: Office 365 (Excel, Word, PowerPoint), Call Center, Coding
-- **Biodata & SJT**: Graduate Scenarios, Customer Service Phone Simulation
-- **Competencies**: Global Skills Assessment, Entry Level Customer Service
-- **Development**: Global Skills Development Report
+Run the server
 
-## Design Decisions
+```bash
+uvicorn main:app --reload
+```
 
-1. **Stateless**: Full conversation history sent each call — no server-side session state
-2. **Catalog grounding**: Every URL comes from `catalog.json` — model cannot hallucinate URLs
-3. **Structured output**: Model always returns JSON matching the exact schema
-4. **30s timeout safety**: `httpx` timeout set to 28s; model max_tokens=1000 for fast responses
-5. **JSON recovery**: Strips markdown fences if model accidentally wraps output
+API will be available at
+
+```
+http://localhost:8000
+```
+
+Swagger Documentation
+
+```
+http://localhost:8000/docs
+```
+
+---
+
+# Docker
+
+Build
+
+```bash
+docker build -t shl-agent .
+```
+
+Run
+
+```bash
+docker run -p 8000:8000 -e OPENAI_API_KEY=your_openai_api_key shl-agent
+```
+
+---
+
+# Deployment
+
+Deploy easily on
+
+- Render
+- Railway
+- Fly.io
+
+Configure the environment variable
+
+```
+OPENAI_API_KEY
+```
+
+before deploying.
+
+---
+
+# Agent Behaviors
+
+| Behavior | Description |
+|----------|-------------|
+| Clarify | Asks one follow-up question when information is insufficient |
+| Recommend | Suggests 1–10 SHL assessments with justification |
+| Refine | Updates recommendations based on additional constraints |
+| Compare | Compares SHL assessments using catalog information |
+| Refuse | Politely declines unrelated or out-of-scope requests |
+
+---
+
+# Catalog Coverage
+
+The catalog includes SHL Individual Test Solutions such as
+
+- Personality & Behaviour
+- Ability & Aptitude
+- Knowledge & Skills
+- Simulations
+- Biodata & Situational Judgement
+- Competencies
+- Development Reports
+
+---
+
+# Design Decisions
+
+1. Stateless architecture with complete conversation history sent in every request.
+2. Recommendations are grounded entirely in the local SHL catalog.
+3. Structured JSON responses ensure predictable API output.
+4. OpenAI GPT is used for conversational reasoning while preventing hallucinated assessment URLs.
+5. Automatic JSON parsing and validation before returning responses.
+
+---
+
+# Technologies Used
+
+- FastAPI
+- Python
+- OpenAI API
+- Pydantic
+- Uvicorn
+- JSON
+
+---
+
+# License
+
+This project is intended for educational and assessment purposes.
